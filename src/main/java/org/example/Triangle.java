@@ -39,7 +39,6 @@ public class Triangle extends Shape{
     public double calculateArea() {
         return getBase() * getHeight() /2 ;
     }
-
     @Override
     public double calculateCircumference() {
         return getBase() * 3 ;
